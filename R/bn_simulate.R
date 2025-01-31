@@ -9,6 +9,7 @@
 #' @return tbl
 #' @export
 #' @examples
+#' \dontrun{
 #' library(dplyr)
 #' set.seed(314159)
 #' pop_n <- 1000
@@ -60,6 +61,7 @@
 #'
 #' # simulate the dataset
 #' dummy_data <- bn_simulate(bn, pop_size = pop_n, keep_all = FALSE, .id = "patient_id")
+#' }
 bn_simulate <- function(bn_df, known_df=NULL, pop_size, keep_all=FALSE, .id=NULL){
 
   if (is.null(known_df)) {
