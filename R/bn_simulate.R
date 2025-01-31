@@ -78,7 +78,7 @@ bn_simulate <- function(bn_df, known_df=NULL, pop_size, keep_all=FALSE, .id=NULL
     function(variable, missing_formula, simdat){
 
       mask <- eval(rlang::f_rhs(missing_formula), simdat)
-      if(class(variable)!="factor"){
+      if(!inherits(variable, "factor")){
         NA_type_ <- NA
         mode(NA_type_) <- typeof(variable)
         dplyr::if_else(!mask, variable, NA_type_)
@@ -120,7 +120,7 @@ bn_simulate <- function(bn_df, known_df=NULL, pop_size, keep_all=FALSE, .id=NULL
         mask <- rep(FALSE, nrow(simdat))
       }
 
-      if(class(variable)!="factor"){
+      if(!inherits(variable, "factor")){
         NA_type_ <- NA
         mode(NA_type_) <- typeof(variable)
         dplyr::if_else(!mask, variable, NA_type_)
