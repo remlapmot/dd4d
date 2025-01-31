@@ -1,4 +1,3 @@
-#
 #' Random factor variables
 #'
 #' @param n number of samples
@@ -14,8 +13,3 @@ rfactor <- function(n, levels, p){
   x <- sample(x=levels, size=n, replace=TRUE, prob=p)
   factor(x = x, levels = levels)
 }
-
-
-
-
-
