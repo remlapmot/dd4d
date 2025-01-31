@@ -15,6 +15,3 @@ dagitty object
 \description{
 Converts a bn_df object to a dagitty object
 }
-\examples{
-
-}

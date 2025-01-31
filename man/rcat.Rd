@@ -20,5 +20,5 @@ a \code{character} vector
 Random categorical variables
 }
 \examples{
-#' rcat(n=10, levels=c("a","b"), p=c(0.2,0.8))
+rcat(n=10, levels=c("a","b"), p=c(0.2,0.8))
 }

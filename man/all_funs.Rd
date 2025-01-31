@@ -10,11 +10,8 @@ all_funs(expr)
 \item{expr}{a formula object}
 }
 \value{
-
+A character vector with the extracted names.
 }
 \description{
 Get all functions that are used in a formula  \code{expr}.
-}
-\examples{
-
 }

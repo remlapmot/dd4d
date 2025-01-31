@@ -20,5 +20,5 @@ a \code{factor} vector
 Random factor variables
 }
 \examples{
-#' rfactor(n=10, levels=c("a","b"), p=c(0.2,0.8))
+rfactor(n=10, levels=c("a","b"), p=c(0.2,0.8))
 }
