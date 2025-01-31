@@ -13,4 +13,3 @@
 rcat <- function(n, levels, p){
   sample(x=levels, size=n, replace=TRUE, prob=p)
 }
-
