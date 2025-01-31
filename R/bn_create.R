@@ -17,7 +17,6 @@
 #'
 #' @return data.frame
 #' @export
-#'
 #' @examples
 bn_create <- function(list, known_variables=NULL){
 
