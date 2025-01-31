@@ -24,6 +24,7 @@ tbl
 Simulate data from bn_df object
 }
 \examples{
+\dontrun{
 library(dplyr)
 set.seed(314159)
 pop_n <- 1000
@@ -75,4 +76,5 @@ bn <- bn_create(sim_list,known_variables = c("pfizer_name","az_name"))
 
 # simulate the dataset
 dummy_data <- bn_simulate(bn, pop_size = pop_n, keep_all = FALSE, .id = "patient_id")
+}
 }
