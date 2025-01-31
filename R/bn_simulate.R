@@ -1,4 +1,3 @@
-
 #' Simulate data from bn_df object
 #'
 #' @param bn_df initialised bn_df object, with simulation instructions. Created with `bn_create`
@@ -9,7 +8,6 @@
 #'
 #' @return tbl
 #' @export
-#'
 #' @examples
 bn_simulate <- function(bn_df, known_df=NULL, pop_size, keep_all=FALSE, .id=NULL){
 
@@ -154,4 +152,3 @@ bn_simulate <- function(bn_df, known_df=NULL, pop_size, keep_all=FALSE, .id=NULL
 
   tblout
 }
-
