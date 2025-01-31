@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-#' #' rfactor(n=10, levels=c("a","b"), p=c(0.2,0.8))
+#' rfactor(n=10, levels=c("a","b"), p=c(0.2,0.8))
 rfactor <- function(n, levels, p){
   x <- sample(x=levels, size=n, replace=TRUE, prob=p)
   factor(x = x, levels = levels)
