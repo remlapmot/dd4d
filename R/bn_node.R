@@ -1,4 +1,3 @@
-
 #' Specify a variable node in the network
 #'
 #' @param variable_formula A RHS-only formula specified how to simulate that variable. Use `..n` for the number of observations, which is later replaced by `pop_size` in the `bn_simulate` function.
