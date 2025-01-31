@@ -3,7 +3,7 @@
 #'
 #' @param expr a formula object
 #'
-#' @return
+#' @return A character vector with the extracted names.
 #' @export
 #'
 #' @examples
