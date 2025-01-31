@@ -1,4 +1,3 @@
-
 #' Plot bn_df object
 #'
 #' @param bn_df initialised bn_df object, with simulation instructions. Created with `bn_create`
@@ -6,7 +5,6 @@
 #'
 #' @return plot
 #' @export
-#'
 #' @examples
 bn_plot <- function(bn_df, connected_only = FALSE){
 
@@ -17,4 +15,3 @@ bn_plot <- function(bn_df, connected_only = FALSE){
   }
   plot(dagitty::graphLayout(dagitty))
 }
-
